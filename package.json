@@ -1,6 +1,6 @@
 {
     "name": "personal",
-    "author": "Pavel Ravits",
+    "author": "Dmitry Volcok",
     "license": "ISC",
     "scripts": {
         "deploy": "./deploy.sh",

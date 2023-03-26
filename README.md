@@ -1,14 +1,12 @@
 # Portfolio site
-<http://lishine.github.io>
+<http://liberosa.github.io>
 
-## use Node 12
+## Node 16
 
-* Static Next.js + React
+* Static React
 * Deployed to github-pages
-* SCSS, Emotion, Styled-System
 * Clean design 😊
 * Responsive & adaptive
 * SEO optimized
 * Latest CSS solutions: Flex, Grid, custom and logical CSS properties
-* Lighthouse audit ~100
 * Page Animation
