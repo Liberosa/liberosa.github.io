@@ -16,13 +16,17 @@ function CurrencyConverter() {
   const [rates, setRates] = useState([]);
 
   useEffect(() => {
-    axios
-      .get(
-        "https://data.fixer.io/api/latest?access_key=5868ceabb7db8aa91bbab9ad61887f9b&format=1"
-      )
-      .then((response) => {
-        setRates(response.data.rates);
-      });
+    axios({
+      method: 'get',
+      baseURL: 'http://data.fixer.io',
+      url: '/api/latest?access_key=5868ceabb7db8aa91bbab9ad61887f9b&format=1'
+    })
+    .then((response) => {
+      setRates(response.data.rates);
+    })
+    .catch(error => {
+      console.log(error)
+    });
   }, []);
 
   function handleAmount1Change(amount1) {
