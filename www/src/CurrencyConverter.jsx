@@ -18,7 +18,7 @@ function CurrencyConverter() {
   useEffect(() => {
     axios
       .get(
-        "http://data.fixer.io/api/latest?access_key=5868ceabb7db8aa91bbab9ad61887f9b&format=1"
+        "https://data.fixer.io/api/latest?access_key=5868ceabb7db8aa91bbab9ad61887f9b&format=1"
       )
       .then((response) => {
         setRates(response.data.rates);
