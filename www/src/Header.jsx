@@ -32,7 +32,7 @@ function Header() {
                 </li>
                 <li class="nav-item">
                   {/* <ButtonLink to="/resume" className="nav-link">Resume</ButtonLink> */}
-                  <a class="nav-link" href="/resume">
+                  <a class="nav-link" href="/#/resume">
                     Resume
                   </a>
                 </li>
